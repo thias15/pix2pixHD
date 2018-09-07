@@ -1,0 +1,5 @@
+###TRAIN
+python train.py --name airsim --label_nc 0 --no_instance --loadSize 512 --dataroot ./datasets/nh/ --resize_or_crop scale_width_and_crop
+
+###TEST
+python test.py --name airsim --label_nc 0 --no_instance --loadSize 512 --dataroot ./datasets/nh/ --resize_or_crop scale_width_and_crop
